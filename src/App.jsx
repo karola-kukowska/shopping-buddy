@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <main>
-      <ToastContainer position="bottom-center" />
+      <ToastContainer position="bottom-center" autoClose={1500} />
       <section className="section-center">
         <h2 className="title">Shopping Buddy</h2>
         <div className="title-underline"></div>
